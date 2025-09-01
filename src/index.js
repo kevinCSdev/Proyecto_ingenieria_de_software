@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-app.use(express.json());
+app.use(express.json()); //middleware
 const port = 3000;
 
 const lista_alumnos = [{"nombre": "sebastian"}];
